@@ -1,0 +1,7 @@
+bcrypt
+sqlite3
+pandas
+tkinterbcrypt
+sqlite3
+pandas
+tkinter
