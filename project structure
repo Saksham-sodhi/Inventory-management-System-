@@ -1,0 +1,10 @@
+inventory-management/
+│── main.py             # Entry point
+│── database.py         # Database setup
+│── auth.py             # User authentication
+│── inventory.py        # Inventory CRUD operations
+│── gui.py              # GUI (Tkinter)
+│── reports.py          # Report generation
+│── requirements.txt    # Dependencies
+│── README.md           # Project documentation
+│── .gitignore          # Ignored files
