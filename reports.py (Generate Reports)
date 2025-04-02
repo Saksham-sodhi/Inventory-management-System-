@@ -1,0 +1,7 @@
+import pandas as pd
+from inventory import get_products
+
+def generate_report():
+    data = get_products()
+    df = pd.DataFrame(data, columns=["ID", "Name", "Quantity", "Price"])
+    df.to_csv("inventory_report.csv", index=False)
